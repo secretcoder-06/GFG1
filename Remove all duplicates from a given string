@@ -1,0 +1,18 @@
+class Solution{
+public:
+	string removeDuplicates(string str) {
+	    string res="";
+
+        //  can also use unordered_map or unordered_set
+        map<char,int> mp;
+        
+        for(auto ch:str){
+            if(mp.find(ch)==mp.end()){ 
+                res+=ch;
+                mp[ch]++;
+            }
+        }
+        
+        return res;
+	}
+};
