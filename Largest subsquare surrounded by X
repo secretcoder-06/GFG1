@@ -11,7 +11,7 @@ class Solution {
                     x++;
                 else 
                     x = 0;
-                    
+                  
                 dp[i][j].first = x;
             }
         }
