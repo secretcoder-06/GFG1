@@ -6,7 +6,7 @@ class Solution
     {
         if (head == nullptr || *head == nullptr) {
             return;
-        }
+        } 
         
         // Store the data of nodes in a vector
         vector<int> data_vec;
