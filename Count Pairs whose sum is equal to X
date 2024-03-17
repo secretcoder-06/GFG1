@@ -1,0 +1,21 @@
+class Solution{
+  public:
+    // your task is to complete this function
+    int countPairs(struct Node* head1, struct Node* head2, int x) {
+        unordered_map<int,int>mp;
+        int ans =0;
+        struct Node* temp1 = head1;
+        while(temp1){
+            mp[x- temp1-> data]++;
+            temp1 = temp1 -> next;
+        }
+        struct Node* temp2 = head2;
+        while(temp2){
+            if(mp.find(temp2 -> data) != mp.end()){
+                ans++;
+            }
+            temp2 = temp2 -> next;
+        }
+        return ans;
+    }
+};
