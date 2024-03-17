@@ -1,6 +1,6 @@
 class Solution{
   public:
-    // your task is to complete this function
+    // your task is to complete this function 
     int countPairs(struct Node* head1, struct Node* head2, int x) {
         unordered_map<int,int>mp;
         int ans =0;
