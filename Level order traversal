@@ -2,7 +2,7 @@
 class Solution
 {
     public:
-    //Function to return the level order traversal of a tree.
+    //Function to return the level order traversal of a tree. 
     vector<int> levelOrder(Node* root)
     {
         vector<int> ans;
