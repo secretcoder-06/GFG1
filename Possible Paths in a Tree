@@ -1,5 +1,5 @@
 class Solution{
-    int ans;
+    int ans; 
 private:
 int root(int i, vector<int> &parent)
 {
