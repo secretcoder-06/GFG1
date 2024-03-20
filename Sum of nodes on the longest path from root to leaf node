@@ -12,7 +12,7 @@ public:
         if(root->left) helper(root->left,h-1,currVal+root->data);
         if(root->right) helper(root->right,h-1,currVal+root->data);
         return;
-    }
+    } 
     
     int sumOfLongRootToLeafPath(Node *root)
     {
