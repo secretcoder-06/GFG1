@@ -1,6 +1,6 @@
 class Solution {
   public:
-    vector<int> Series(int n) {
+    vector<int> Series(int n) { 
         int mod=1e9+7;
         vector<int>v(n+1,0);
         v[0]=0;
