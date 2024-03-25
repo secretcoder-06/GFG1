@@ -1,5 +1,5 @@
 class Solution{
-public:
+public: 
      void f(vector<string>&s,string t,int n,int o,int z)
     {
         if(t.size()==n)
