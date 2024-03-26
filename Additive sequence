@@ -1,6 +1,6 @@
 class Solution {
   public:
-    bool isAdditiveSequence(string s) {
+    bool isAdditiveSequence(string s) { 
         int n = s.length();
         int n1=0;
         for(int i=0;i<n/2;i++){
