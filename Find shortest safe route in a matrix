@@ -1,7 +1,7 @@
 class Solution
 {
 public:
-    int findShortestPath(vector<vector<int>> &mat)
+    int findShortestPath(vector<vector<int>> &mat) 
     {
         int ans = 0, m = mat.size(), n = mat[0].size(), dx[4] = {-1, 0, 1, 0}, dy[4] = {0, 1, 0, -1};
         vector<pair<int, int>> vp;
