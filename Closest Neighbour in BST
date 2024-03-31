@@ -1,0 +1,17 @@
+class Solution {
+  public:
+      int findMaxForN(Node* root, int n) {
+        int res=-1;
+        while(root!=NULL){
+            if(root->key <= n){
+                res=max(res,root->key);
+                root=root->right;
+            }
+            else
+                root=root->left;
+        }
+        return res;
+   
+        
+    }
+};
