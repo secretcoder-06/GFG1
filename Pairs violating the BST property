@@ -1,7 +1,7 @@
 
 class Solution {
   public:
-  
+   
     vector<int> arr;
     int ans=0;
     
