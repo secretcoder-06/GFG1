@@ -1,7 +1,7 @@
 class Solution
 {
     public:
-    const int mod = 1000000007;
+    const int mod = 1000000007; 
     
     long long sumSubstrings(string s){
         int n = s.length();
