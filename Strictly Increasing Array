@@ -3,7 +3,7 @@ class Solution {
 
     int min_operations(vector<int>& nums) {
         int n = nums.size();
-        vector<int> dp(n,1);
+        vector<int> dp(n,1); 
         int LIS=1;
         for(int i=1;i<n;i++)
        {
