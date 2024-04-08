@@ -1,0 +1,19 @@
+class Solution{
+    public:
+    
+    long long func(int i, int j, int arr[], int n, vector<vector<long long>> &dp)
+    {
+        if(i>j || i>=n || j<0) return 0;
+        if(dp[i][j]!=-1) return dp[i][j];
+        
+        int c1=-1e9, c2=-1e9;
+        c1=arr[i]+min(func(i+2, j, arr, n, dp), func(i+1, j-1, arr, n, dp));
+        c2=arr[j]+min(func(i+1, j-1, arr, n, dp), func(i, j-2, arr, n, dp));
+        return  dp[i][j] = max(c1, c2);
+    }
+    
+    long long maximumAmount(int n, int arr[]){
+        vector<vector<long long>> dp(n+1, vector<long long> (n+1, -1));
+        return func(0, n-1, arr, n, dp);
+    }
+};
