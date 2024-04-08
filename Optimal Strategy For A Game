@@ -3,7 +3,7 @@ class Solution{
     
     long long func(int i, int j, int arr[], int n, vector<vector<long long>> &dp)
     {
-        if(i>j || i>=n || j<0) return 0;
+        if(i>j || i>=n || j<0) return 0; 
         if(dp[i][j]!=-1) return dp[i][j];
         
         int c1=-1e9, c2=-1e9;
