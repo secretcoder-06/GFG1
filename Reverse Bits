@@ -3,7 +3,7 @@ class Solution {
     long long reversedBits(long long x) {
         int len=log2(x)+1; 
         long long res=0;
-        for(int i=0;i<len;i++){
+        for(int i=0;i<len;i++){ 
             long long y=x&1;
             res=(res+y)<<1;
             x>>=1;
