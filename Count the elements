@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     vector<int> countElements(vector<int> &a, vector<int> &b, int n, vector<int> &query,
                               int q) {
         vector<int> ans;
