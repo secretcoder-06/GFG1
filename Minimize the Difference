@@ -3,7 +3,7 @@ class Solution {
     int minimizeDifference(int n, int k, vector<int> &arr) {
         vector<int> post_max(n);
         vector<int> post_min(n);
-        
+         
         post_min[n-1] = arr[n-1];
         post_max[n-1] = arr[n-1];
         
