@@ -1,6 +1,6 @@
 class Solution{
     public:
-    int merge(int arr[] , int low , int mid , int high){
+    int merge(int arr[] , int low , int mid , int high){ 
         int count = 0;
         int left = low;
         int right = mid+1;
