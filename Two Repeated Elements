@@ -1,0 +1,15 @@
+class Solution {
+  public:
+    //Function to find two repeated elements.
+    vector<int> twoRepeated (int arr[], int n) {
+        vector <int> ans;
+        for(int i=0;i<n+2;i++){
+            int ele = abs(arr[i]);
+            int in = ele-1;
+            if(arr[in] < 0)ans.push_back(ele);
+            arr[in] = -arr[in];
+        }
+        return ans;
+        
+    }
+};
