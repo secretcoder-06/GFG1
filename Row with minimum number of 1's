@@ -2,7 +2,7 @@ class Solution {
   public:
     int minRow(int n, int m, vector<vector<int>> a) {
     int indx=1;
-
+ 
          int ans=1000;
         for(int i=0;i<n;i++){      
 
