@@ -3,7 +3,7 @@ class Solution {
     int firstElement(int n) {
         int a = 1;
         int b = 1;
-        if (n == 1)
+        if (n == 1) 
         {
             return 1;
         }
