@@ -1,6 +1,6 @@
 class Solution {
   public:
-    vector<int> FindExitPoint(int n, int m, vector<vector<int>>& matrix) {
+    vector<int> FindExitPoint(int n, int m, vector<vector<int>>& matrix) { 
         int pos = 0, i = 0, j = 0, pi = -1, pj = -1;
         int dx[4] = {0, 1, 0, -1}, dy[4] = {1, 0, -1, 0};
         while(0 <= i and i < n and 0 <= j and j < m){
