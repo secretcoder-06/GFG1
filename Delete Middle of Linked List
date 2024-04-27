@@ -4,7 +4,7 @@ class Solution{
     {
         Node *slow=head;
         Node *fast=head;
-        fast=fast->next->next;
+        fast=fast->next->next; 
         
         while(fast!=NULL && fast->next!=NULL){
             fast=fast->next->next;
