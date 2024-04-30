@@ -1,6 +1,6 @@
 class Solution
 {
-    public:
+    public: 
     //Function to add two numbers represented by linked list.
    Node* reverse(Node* head){         Node* curr = head;
         Node* prev = NULL;
