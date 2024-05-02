@@ -1,7 +1,7 @@
 class Solution
 {
     public:
-    //Function to serialize a tree and return a list containing nodes of tree.
+    //Function to serialize a tree and return a list containing nodes of tree. 
    void solve(Node*root, vector<int>& ans) {
         if(root==NULL) {
             ans.push_back(-1);
