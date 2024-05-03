@@ -2,7 +2,7 @@ class Solution
 {
     public:
       vector<int> v;
-    // function should print the nodes at k distance from root
+    // function should print the nodes at k distance from root 
     vector<int> Kdistance(struct Node *root, int k)
     {
       if(k==0) v.push_back(root->data);
