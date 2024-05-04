@@ -3,7 +3,7 @@ class Solution
     public:
 
     //Function to return a tree created from postorder and inoreder traversals.
-    Node *buildTree(int in[], int post[], int n) {
+    Node *buildTree(int in[], int post[], int n) { 
           if (n == 0) {
             return nullptr;
         }
