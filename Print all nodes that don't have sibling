@@ -2,7 +2,7 @@ vector<int> noSibling(Node* node)
 {
     queue<Node*> q;
    vector<int> ans;
-   if(node == NULL){
+   if(node == NULL){ 
        return ans;
     }
    q.push(node);
