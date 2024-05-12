@@ -3,7 +3,7 @@ class Solution {
     int minSteps(int d) {
         int add = 1;
         int element = 0, count = 0;
-        while(element<d){
+        while(element<d){ 
             element+=add;
             add++;
             count++;
