@@ -1,6 +1,6 @@
 class Solution {
     private:
-    void dfs(vector<vector<int>> &adj, int i, vector<int> &isVisited, vector<int> &temp){
+    void dfs(vector<vector<int>> &adj, int i, vector<int> &isVisited, vector<int> &temp){ 
         temp.push_back(i);
         isVisited[i]++;
         for(auto &it : adj[i]){
