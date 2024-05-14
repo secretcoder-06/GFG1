@@ -5,7 +5,7 @@ class Solution {
         pq.push({0,0,0});
         int mini = INT_MAX;
         vector<int> dr = {0,1,0,-1};
-        vector<int> dc = {1,0,-1,0};
+        vector<int> dc = {1,0,-1,0}; 
         vector<vector<int>> visited(rows, vector<int>(columns, 0));
         while(!pq.empty())
         {
