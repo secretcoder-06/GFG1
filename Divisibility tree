@@ -3,7 +3,7 @@ public:
 int ans =0;
     int dfs(vector<int>adj[],int num,int parent){
         if(adj[num].size()==0){
-            return 1;
+            return 1; 
         }
         int count = 0;
         for(auto x : adj[num]){
