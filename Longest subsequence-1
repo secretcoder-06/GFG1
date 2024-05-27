@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int longestSubseq(int n, vector<int> &a) {
+    int longestSubseq(int n, vector<int> &a) { 
         vector<int> dp(n, 1);
         int maxi = 0;
         
