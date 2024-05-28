@@ -1,7 +1,7 @@
 class Solution {
   public:
     int minimumCost(int n, int w, vector<int> &cost) {
-         vector<int> dp(w + 1, INT_MAX);
+         vector<int> dp(w + 1, INT_MAX); 
         dp[0] = 0;
         for(int i = 1; i <= w; i++) {
             for(int j = 0; j < n; j++) {
