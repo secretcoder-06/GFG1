@@ -3,7 +3,7 @@ class Solution {
   int n,i;
     string binaryNextNumber(string s) {
          while(s[0] == '0') s = s.substr(1);
-        
+         
         int carry = 1;
         string ans = "";
         
