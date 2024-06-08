@@ -2,7 +2,7 @@ class Solution {
   public:
   int i,j;
     int findExtra(int n, int arr1[], int arr2[]) {
-        i=0;
+        i=0; 
         j=0;
         while(i<n && j<(n-1)){
             if(arr1[i] == arr2[j]){
