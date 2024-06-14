@@ -3,7 +3,7 @@ class Solution {
   int p,q,r,ans,temp;
     string armstrongNumber(int n) {
         temp=n;
-        p = n%10;
+        p = n%10; 
         n=n/10;
         q=n%10;
         n=n/10;
