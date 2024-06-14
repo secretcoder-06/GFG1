@@ -1,0 +1,21 @@
+class Solution {
+  public:
+  int p,q,r,ans,temp;
+    string armstrongNumber(int n) {
+        temp=n;
+        p = n%10;
+        n=n/10;
+        q=n%10;
+        n=n/10;
+        r=n%10;
+        
+        ans = (p*p*p)+(q*q*q)+(r*r*r);
+        
+        if(ans == temp){
+            return "true";
+        }
+        else{
+            return "false";
+        }
+    }
+};
