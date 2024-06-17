@@ -3,7 +3,7 @@
 using namespace std;
 
 class Solution {
-public:
+public: 
     // structure for a Point
     struct Point {
         long long x, y;
