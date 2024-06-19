@@ -4,7 +4,7 @@ class Solution {
         
         double P = perimeter;
         double A = area;
-        double sqrtTerm = sqrt(P * P - 24 * A);
+        double sqrtTerm = sqrt(P * P - 24 * A); 
         double dimension1 = (P - sqrtTerm) / 12.0;
         double dimension2 = (P / 4.0) - 2 * dimension1;
         
