@@ -4,7 +4,7 @@ class Solution {
                                 long long int r[]) {
             long long int x1 = p[0];
         long long int y1 = p[1];
-        long long int x2 = q[0];
+        long long int x2 = q[0]; 
         long long int y2 = q[1];
         long long int x3 = r[0];
         long long int y3 = r[1];
