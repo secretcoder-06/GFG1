@@ -4,7 +4,7 @@ class Solution {
 
         long long count=0,n=0;
         bool indicate=false;
-        for(char x:sentence)
+        for(char x:sentence) 
         {
             if(x>='0' && x<='9')
             {
