@@ -2,7 +2,7 @@ class Solution {
   public:
     vector<vector<int>> rotateMatrix(int k, vector<vector<int>> mat) {
             
-       int m=mat[0].size();
+       int m=mat[0].size(); 
         int n=mat.size();
         vector<vector<int>>ans(n,vector<int>(m,0));
         k%=m;
