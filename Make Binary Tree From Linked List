@@ -4,7 +4,7 @@ class Solution {
         if(head==NULL) return NULL; //empty linked list
         if(head->next==NULL) {     //single node
             delete head;
-            return NULL;
+            return NULL; 
         }
         Node *temp = head;
         int count=1;
