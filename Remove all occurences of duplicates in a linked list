@@ -6,7 +6,7 @@ class Solution {
         struct Node* head2 = NULL;
         struct Node* temp = NULL;
         while(maxi->next != NULL) maxi = maxi->next;
-        int maxVal = maxi->data;
+        int maxVal = maxi->data; 
         vector<int> arr(maxVal+1 , 0);
         maxi = head;
         while(maxi){
