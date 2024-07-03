@@ -1,0 +1,31 @@
+class Solution {
+  public:
+    Node* removeAllDuplicates(struct Node* head) {
+         if(!head || !head->next ) return head;
+        struct Node* maxi = head;
+        struct Node* head2 = NULL;
+        struct Node* temp = NULL;
+        while(maxi->next != NULL) maxi = maxi->next;
+        int maxVal = maxi->data;
+        vector<int> arr(maxVal+1 , 0);
+        maxi = head;
+        while(maxi){
+            arr[maxi->data]++;
+            maxi = maxi->next;
+        }
+        for(int i = 0 ; i < arr.size() ; i++){
+            if(arr[i] == 1){
+                if(head2 == NULL){
+                    head2 = new Node(i);
+                    temp = head2;
+                }
+                else{
+                    struct Node* newNode = new Node(i);
+                    temp->next = newNode;
+                    temp = newNode;
+                }
+            }
+        }
+        return head2;
+    }
+};
